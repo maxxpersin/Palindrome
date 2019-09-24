@@ -9,7 +9,7 @@ public class TestSubset {
 	public static void main(String[] args) {
 		
 		Solution sol = new Solution();
-		List<List<String>> testCaseOutput = new ArrayList<>();
+		List<List<String>> testCaseOutput = new ArrayList();
 		
 		// Case 1:
 		System.out.println("TEST CASE 1:");
