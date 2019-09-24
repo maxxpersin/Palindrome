@@ -10,11 +10,14 @@ public class Solution {
      * @return: A list of lists of string
      */
     public List<List<String>> partition(String s) {
+        List<List<String>> result = new ArrayList();
         List<String> l = new ArrayList<String>();
         if (s == null) {
             return new ArrayList();
         } else if (s.length() == 1) {
-            return 
+            l.add(s.charAt(0) + "");
+            result.add(l);
+            return result;
         }
         return new ArrayList();
     }
