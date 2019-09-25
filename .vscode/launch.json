@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestSubset",
+            "request": "launch",
+            "mainClass": "CS353.TestSubset",
+            "projectName": "Palindrome"
+        }
+    ]
+}
