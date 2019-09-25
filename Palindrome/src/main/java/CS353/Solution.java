@@ -19,7 +19,13 @@ public class Solution {
             result.add(l);
             return result;
         }
-        return new ArrayList();
+        helper(s, l, result);
+
+        return result;
+    }
+
+    private void helper(String s, List<String> l, List<List<String>> result) {
+
     }
 
 }
