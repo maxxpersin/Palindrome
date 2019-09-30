@@ -30,7 +30,7 @@ public class TestSubset {
 		// Case 2:
 		System.out.println("TEST CASE 2:");
 		// input
-		testCase = "aab";
+		testCase = "tacocat";
 		// build the expected output for case 1
 		testCaseOutput.clear();
 		testCaseOutput.add(new ArrayList<String>(Arrays.asList("a", "a", "b")));
